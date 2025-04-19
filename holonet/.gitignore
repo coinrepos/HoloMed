@@ -1,0 +1,27 @@
+# Ignore all heavy/binary/deep learning files
+*.fbx
+*.glb
+*.mp4
+*.ckpt
+*.data
+*.index
+*.png
+*.jpg
+*.log
+*.zip
+*.tar.gz
+*.pkl
+*.onnx
+*.h5
+
+# Ignore runtime/deploy folders
+__pycache__/
+node_modules/
+output_files/
+services/tensor_holography/model/
+services/tensor_holography/input/
+services/tensor_holography/data/
+
+# Python + env
+.env
+*.pyc
