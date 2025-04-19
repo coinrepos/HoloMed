@@ -1,0 +1,3 @@
+import cv2
+cv2.imwrite(os.path.join(cur_dir, "scans", "amp.png"), np.random.rand(256, 256) * 255)
+cv2.imwrite(os.path.join(cur_dir, "scans", "phs.png"), np.random.rand(256, 256) * 255)

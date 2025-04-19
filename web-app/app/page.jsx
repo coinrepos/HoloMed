@@ -1,10 +1,15 @@
+// web-app/app/page.jsx
+"use client";
+
 export default function HomePage() {
   return (
-    <div className="p-10">
-      <h1 className="text-4xl font-bold">🧬 Welcome to HoloMed</h1>
-      <p className="mt-4 text-lg text-gray-700">
-        Begin your healing journey with the power of AI, DAO and crypto-backed wellness.
-      </p>
-    </div>
+    <main style={{ padding: "2rem", fontFamily: "Orbitron, sans-serif", background: "#000", color: "#0ff" }}>
+      <h1>🧬 Welcome to HoloMed</h1>
+      <p>Begin your healing journey with AI-powered diagnostics and decentralized MedBay intelligence.</p>
+      <ul>
+        <li>📡 Access MedBay: <a href="/session" style={{ color: "#0ff" }}>Run HoloScan</a></li>
+        <li>📄 View Reports: <a href="/session-result" style={{ color: "#0ff" }}>Session Results</a></li>
+      </ul>
+    </main>
   );
 }
